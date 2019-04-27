@@ -7,5 +7,5 @@
 
 ## Usage
 
-    :header
+    :Header
 > You can use default values for project name and description by hitting Enter
