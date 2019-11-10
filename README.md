@@ -1,9 +1,17 @@
 # A simple plugin to create Epitech's Header
 
-## Instalation
+## Installation
 
-    cd ~/.vim/plugin
-    git clone https://github.com/Yohannfra/Vim-Epitech
+### Using Plug
+
+```vim
+Plug 'Yohannfra/Vim-Epitech'
+```
+
+### Manual installation
+```
+git clone https://github.com/Yohannfra/Vim-Epitech ~/.vim/plugin/
+```
 
 ## Usage
 
