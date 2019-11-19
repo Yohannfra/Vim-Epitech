@@ -1,5 +1,7 @@
 # A simple plugin to create Epitech's Header
 
+![alt text](.github/demo.gif "demo")
+
 ## Installation
 
 ### Using Plug
