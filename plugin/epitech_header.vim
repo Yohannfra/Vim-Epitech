@@ -19,7 +19,7 @@ function! Header()
         let description = "description"
     endif
 
-    if file_name == "makefile" || file_name == "Makefile" || extension == "py" || extension == "rb"
+    if file_name ==# "makefile" || file_name ==# "Makefile" || extension ==# "py" || extension ==# "rb"
         let comment_tab[0] = "##"
         let comment_tab[1] = "## "
         let comment_tab[2] = "##"
