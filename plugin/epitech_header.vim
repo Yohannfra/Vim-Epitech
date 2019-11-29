@@ -34,4 +34,4 @@ function! Header()
 
 endfunction
 
-command! Header execute Header()
+command! Header :call Header()
