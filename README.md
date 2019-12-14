@@ -19,3 +19,7 @@ git clone https://github.com/Yohannfra/Vim-Epitech ~/.vim/plugin/
 
     :Header
 > You can use default values for project name and description by hitting Enter
+
+## License
+
+This project is licensed under the terms of the MIT license.
