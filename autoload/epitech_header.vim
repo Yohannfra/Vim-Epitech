@@ -14,11 +14,12 @@ function!  epitech_header#Create_epitech_header()
         let project_name = g:vim_project_ProjectName
     endif
     let year = system("date \"+%Y\"")
-    let extension = expand('%:e')
+    let ext = expand('%:e')
     let file_name = expand('%:t:r')
     let comment_tab = ["/*", "** ", "*/"]
 
-    if file_name ==# "makefile" || file_name ==# "Makefile" || extension ==# "py" || extension ==# "rb"
+    if file_name ==# "makefile" || file_name ==# "Makefile" ||
+                \ ext ==# "py" || ext ==# "rb" || ext ==# "sh"
         let comment_tab[0] = "##"
         let comment_tab[1] = "## "
         let comment_tab[2] = "##"
